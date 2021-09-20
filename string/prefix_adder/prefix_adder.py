@@ -18,7 +18,7 @@ prefix = "* "
 if len(sys.argv) == 2:
     prefix = sys.argv[1]
 
-# コピーされたテキストを取得し、行ごとに分割する
+# テキストを取得し、行ごとに分割する
 text = pyperclip.paste()
 lines = text.split("\n")
 
@@ -26,6 +26,6 @@ lines = text.split("\n")
 for i in range(len(lines)):
     lines[i] = prefix + lines[i]
 
-# 行を連結して、コピーする
+# 行を連結し、コピーする
 output = "\n".join(lines)
 pyperclip.copy(output)
