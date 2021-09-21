@@ -1,0 +1,62 @@
+
+□検索条件  "pyperclip"
+検索対象       *.*
+フォルダ       C:\Work\Python
+除外ファイル   *.msi;*.exe;*.obj;*.pdb;*.ilk;*.res;*.pch;*.iobj;*.ipdb
+除外フォルダ   .git;.svn;.vs
+    (サブフォルダも検索)
+    (英大文字小文字を区別しない)
+    (正規表現:bregonig.dll Ver.4.20 with Onigmo 6.2.0)
+    (文字コードセットの自動判別)
+    (一致した行を出力)
+
+
+C:\Work\Python\File\multi_clipboard\mcb.pyw(11,8)  [UTF-8]: import pyperclip
+C:\Work\Python\File\multi_clipboard\mcb.pyw(20,30)  [UTF-8]:         shelf[sys.argv[2]] = pyperclip.paste()
+C:\Work\Python\File\multi_clipboard\mcb.pyw(25,9)  [UTF-8]:         pyperclip.copy(str(list(shelf.keys())))
+C:\Work\Python\File\multi_clipboard\mcb.pyw(27,9)  [UTF-8]:         pyperclip.copy(shelf[sys.argv[1]])
+C:\Work\Python\Scraping\google_map\google_map.py(7,8)  [UTF-8]: import pyperclip
+C:\Work\Python\Scraping\google_map\google_map.py(12,15)  [UTF-8]:     address = pyperclip.paste()
+C:\Work\Python\String\date_formatter\date_formatter.py(9,8)  [UTF-8]: import pyperclip
+C:\Work\Python\String\date_formatter\date_formatter.py(16,9)  [UTF-8]: input = pyperclip.paste()
+C:\Work\Python\String\date_formatter\date_formatter.py(18,1)  [UTF-8]: pyperclip.copy(output)
+C:\Work\Python\String\email_address_finder\email_address_finder.py(9,8)  [UTF-8]: import pyperclip
+C:\Work\Python\String\email_address_finder\email_address_finder.py(18,9)  [UTF-8]: input = pyperclip.paste()
+C:\Work\Python\String\email_address_finder\email_address_finder.py(22,5)  [UTF-8]:     pyperclip.copy('\n'.join(matches))
+C:\Work\Python\String\grep_result_formatter\grep_result_formatter.py(11,8)  [UTF-8]: import pyperclip
+C:\Work\Python\String\grep_result_formatter\grep_result_formatter.py(18,9)  [UTF-8]: input = pyperclip.paste()
+C:\Work\Python\String\grep_result_formatter\grep_result_formatter.py(20,1)  [UTF-8]: pyperclip.copy(output)
+C:\Work\Python\String\grep_result_formatter\テストデータ.txt(1,68)  [UTF-8]: C:\Work\Python\File\multi_clipboard\mcb.pyw(11,1)  [UTF-8]: import pyperclip
+C:\Work\Python\String\grep_result_formatter\テストデータ.txt(2,72)  [UTF-8]: C:\Work\Python\Scraping\google_map\google_map.py(7,1)  [UTF-8]: import pyperclip
+C:\Work\Python\String\grep_result_formatter\テストデータ.txt(3,78)  [UTF-8]: C:\Work\Python\String\date_formatter\date_formatter.py(9,1)  [UTF-8]: import pyperclip
+C:\Work\Python\String\grep_result_formatter\テストデータ.txt(4,90)  [UTF-8]: C:\Work\Python\String\email_address_finder\email_address_finder.py(9,1)  [UTF-8]: import pyperclip
+C:\Work\Python\String\grep_result_formatter\テストデータ.txt(5,93)  [UTF-8]: C:\Work\Python\String\grep_result_formatter\grep_result_formatter.py(11,1)  [UTF-8]: import pyperclip
+C:\Work\Python\String\grep_result_formatter\テストデータ.txt(6,129)  [UTF-8]: C:\Work\Python\String\grep_result_formatter\テストデータ.txt(1,51)  [UTF-8]: C:\work\python\bulletPointAdder.py(3,1)  [UTF-8]: import pyperclip
+C:\Work\Python\String\grep_result_formatter\テストデータ.txt(7,115)  [UTF-8]: C:\Work\Python\String\grep_result_formatter\テストデータ.txt(5,37)  [UTF-8]: C:\work\python\pw.py(8,1)  [UTF-8]: import pyperclip
+C:\Work\Python\String\grep_result_formatter\テストデータ.txt(8,75)  [UTF-8]: C:\Work\Python\String\number_adder\number_adder.py(11,1)  [UTF-8]: import pyperclip
+C:\Work\Python\String\grep_result_formatter\テストデータ.txt(9,88)  [UTF-8]: C:\Work\Python\String\phone_number_finder\phone_number_finder.py(9,1)  [UTF-8]: import pyperclip
+C:\Work\Python\String\grep_result_formatter\テストデータ.txt(10,75)  [UTF-8]: C:\Work\Python\String\prefix_adder\prefix_adder.py(14,1)  [UTF-8]: import pyperclip
+C:\Work\Python\String\grep_result_formatter\テストデータ.txt(11,54)  [UTF-8]: C:\Work\Python\String\pw\pw.py(6,1)  [UTF-8]: import pyperclip
+C:\Work\Python\String\grep_result_formatter\テストデータ.txt(12,70)  [UTF-8]: C:\Work\Python\String\url_finder\url_finder.py(9,1)  [UTF-8]: import pyperclip
+C:\Work\Python\String\grep_result_formatter\テストデータ.txt(13,62)  [UTF-8]: C:\Work\Python\tmp\bulletPointAdder.py(3,1)  [UTF-8]: import pyperclip
+C:\Work\Python\String\grep_result_formatter\テストデータ.txt(14,48)  [UTF-8]: C:\Work\Python\tmp\pw.py(8,1)  [UTF-8]: import pyperclip
+C:\Work\Python\String\number_adder\number_adder.py(11,8)  [UTF-8]: import pyperclip
+C:\Work\Python\String\number_adder\number_adder.py(19,9)  [UTF-8]: input = pyperclip.paste()
+C:\Work\Python\String\number_adder\number_adder.py(21,1)  [UTF-8]: pyperclip.copy(output)
+C:\Work\Python\String\phone_number_finder\phone_number_finder.py(9,8)  [UTF-8]: import pyperclip
+C:\Work\Python\String\phone_number_finder\phone_number_finder.py(27,9)  [UTF-8]: input = pyperclip.paste()
+C:\Work\Python\String\phone_number_finder\phone_number_finder.py(31,5)  [UTF-8]:     pyperclip.copy('\n'.join(matches))
+C:\Work\Python\String\prefix_adder\prefix_adder.py(14,8)  [UTF-8]: import pyperclip
+C:\Work\Python\String\prefix_adder\prefix_adder.py(26,9)  [UTF-8]: input = pyperclip.paste()
+C:\Work\Python\String\prefix_adder\prefix_adder.py(28,1)  [UTF-8]: pyperclip.copy(output)
+C:\Work\Python\String\pw\pw.py(6,8)  [UTF-8]: import pyperclip
+C:\Work\Python\String\pw\pw.py(18,5)  [UTF-8]:     pyperclip.copy(PASSWORDS[key])
+C:\Work\Python\String\url_finder\url_finder.py(9,8)  [UTF-8]: import pyperclip
+C:\Work\Python\String\url_finder\url_finder.py(16,9)  [UTF-8]: input = pyperclip.paste()
+C:\Work\Python\String\url_finder\url_finder.py(20,5)  [UTF-8]:     pyperclip.copy('\n'.join(matches))
+C:\Work\Python\tmp\bulletPointAdder.py(3,8)  [UTF-8]: import pyperclip
+C:\Work\Python\tmp\bulletPointAdder.py(4,8)  [UTF-8]: text = pyperclip.paste()
+C:\Work\Python\tmp\bulletPointAdder.py(11,1)  [UTF-8]: pyperclip.copy(text)
+C:\Work\Python\tmp\pw.py(8,8)  [UTF-8]: import pyperclip
+C:\Work\Python\tmp\pw.py(18,5)  [UTF-8]:     pyperclip.copy(PASSWORDS[account])
+48 個が検索されました。
