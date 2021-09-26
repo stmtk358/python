@@ -5,7 +5,7 @@
 #  1.Pythonを実行する
 # 実行コマンド
 #  python huge_file_finder.py パス ファイルサイズ
-#  python huge_file_finder.py C:\Work\Python 1000000
+#  python huge_file_finder.py C:\work\python 1000000
 
 import os
 import sys
