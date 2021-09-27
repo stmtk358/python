@@ -15,18 +15,21 @@ if len(sys.argv) != 3:
 
 path = sys.argv[1]
 search_size = int(sys.argv[2])
-
 found = False
+
+# サブフォルダも含めて検索する
 for folder_name, _, file_names in os.walk(path):
     for file_name in file_names:
         file_path = os.path.join(folder_name, file_name)
 
+        # ファイルサイズを取得する
         try:
             file_size = os.path.getsize(file_path)
         except FileNotFoundError:
             print("size:不明 file:" + file_path)
             continue
 
+        # 指定サイズ以上のファイルを出力する
         if file_size >= search_size:
             print("size:" + "{:,}".format(file_size) + " file:" + file_path)
             found = True

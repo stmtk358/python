@@ -5,6 +5,7 @@
 #  1.Pythonを実行する
 # 実行コマンド
 #  python file_name_date_converter.py パス
+#  python file_name_date_converter.py input
 
 import os
 import re

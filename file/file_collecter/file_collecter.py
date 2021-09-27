@@ -6,7 +6,7 @@
 # 実行コマンド
 #  python file_collecter.py キーワード 検索パス 出力パス
 #  python file_collecter.py .txt input output
-#  python file_collecter.py test input output
+#  python file_collecter.py テスト input output
 
 import os
 import sys

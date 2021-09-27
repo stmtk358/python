@@ -5,6 +5,7 @@
 #  1.Pythonを実行する
 # 実行コマンド
 #  python file_name_suffix_adder.py パス
+#  python file_name_suffix_adder.py input
 
 import os
 import sys

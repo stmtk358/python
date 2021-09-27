@@ -6,6 +6,7 @@
 #  2.Pythonを実行する
 # 実行コマンド
 #  python folder_maker.py CSVパス 出力パス
+#  python folder_maker.py input.csv output
 
 import os
 import sys
@@ -27,4 +28,3 @@ with open(csv_path, encoding="UTF-8") as csv_file:
         folder_path = os.path.join(output_path, folder_name)
         print('Making "{}"...'.format(folder_path))
         os.makedirs(folder_path, exist_ok=True)
-
